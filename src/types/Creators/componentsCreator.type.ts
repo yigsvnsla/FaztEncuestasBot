@@ -1,0 +1,3 @@
+import { ActionRowComponentData, ActionRowData, APIActionRowComponent, APIActionRowComponentTypes, APIMessageActionRowComponent, APIModalActionRowComponent, JSONEncodable } from 'discord.js';
+
+export type ComponentsCreatorOptions = Partial<ActionRowData<ActionRowComponentData | JSONEncodable<APIActionRowComponentTypes>> | APIActionRowComponent<APIMessageActionRowComponent | APIModalActionRowComponent>>;
